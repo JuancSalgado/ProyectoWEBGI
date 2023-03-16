@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario #4</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td style="text-align: right;">
+                    Account Type:
+                    <br>
+                    <br>
+                    <br>
+    
+                        First Name:
+                        <br>
+                        <br>
+                            Middle Name or Initial:
+                            <br>
+                            <br>
+    
+                            Last Name:
+                            <br>
+                            <br>
+                        
+    
+                        
+                            Suffix:
+                            <br>
+                            <br>
+                        
+                        
+                        
+                            Taxpayer Identification Number:
+                            <br>
+                            <br>
+                            Date of Birth:
+                            <br>
+                            <br>
+                            Street Address:
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            City:
+                            <br>
+                            <br>
+                            State:
+                            <br>
+                            <br>
+                            Zip Code:
+                            <br>
+                            <br>
+                            Home Phone:<br><br>
+                            Drivers Licence/State ID Number:
+                                <br>
+                                <br>
+                            Issuing State:<br><br>
+                            Expiration Date:
+                            <br>
+                </td>
+                <td>
+                    <input type="radio" name="1">Individual <br>
+                    <input type="radio" name="1">Entity <br><br><br>
+    
+                        <input type="text" style="width: 250px;" pattern="(Mr|Ms|Mrs)\s[A-Za-z]+" required><br><br>
+    
+                        <input type="text" style="width: 250px;" pattern="[A-Z][a-z]{1}" maxlength="2" required><br><br>
+    
+                        <input type="text" style="width: 250px;" pattern="(Mr|Ms|Mrs)\s{1,3}[A-Za-z]+" required><br><br>
+    
+                        <select style="width: 50px;">
+                            <option>Mr</option>
+                            <option>Ms</option>
+                            <option>Mrs</option>
+                        </select><br><br>
+                        <input type="text" style="width: 30px;"> -
+                        <input type="text" style="width: 20px;"> - <input type="text" style="width: 30px;">
+                        <br>
+                        <br>
+                        <input type="text" style="width: 30px;"> 
+                        -<input type="text" style="width: 20px;">
+                        -<input type="text" style="width: 30px;">(MM/DD/YY)
+                        <br>
+                        <br>
+                        <input type="text">
+                        <br>
+                        <input type="text">
+                        <br>
+                        <input type="text">
+                        <br>
+                        <br>
+                        <input type="text"><br><br>
+                        <select>
+
+                            <option>Risaralda</option>
+                            <option>Antioquia</option>
+                            <option>Santander</option>
+                            <option>Nariño</option>
+                            <option>Caquetá</option>
+                            <option>Bolívar</option>
+                            <option>Arauca</option>
+                            <option>Guainía</option>
+                            <option>Sucre</option>
+
+                            <option>Quindío</option>
+                            <option>Cauca</option>
+                            <option>Boyacá</option>
+                            <option>Tolima</option>
+                            <option>La Guajira</option>
+                            <option>Valle del Cauca</option>
+                            <option>Córdoba</option>
+                            <option>Vaupés</option>
+                            <option>Norte de Santander</option>
+                            <option>Casanare</option>
+                            <option>Chocó</option>
+                            <option>Caldas</option>
+                            <option>Putumayo</option>
+                            <option>Amazonas</option>
+                            <option>Atlántico</option>
+                            <option>Guaviare</option>
+                            <option>Meta</option>
+                            <option>Magdalena</option>
+                            <option>San Andrés y Providencia</option>
+
+                        </select><br><br>
+                        <input type="text" style="width: 30px;" pattern="[0-9]+" maxlength="6" required>
+                        -<input type="text" style="width: 25px;">(Plus Four - Optional)
+                        <br>
+                        <br>
+                        (<input type="text" pattern="\+.{2}" required>)-
+                        
+                        <input type="text" maxlength="3" required> -
+                        
+                        <input type="text" style="width: 30px;" required>
+                        <br>
+
+
+                        <br>
+                        <input type="text" style="width: 150px;" pattern="D\d"required>
+                        <br>
+                        <br>
+                        <select>
+                            <option>- -</option>
+                        </select><br><br>
+
+
+                        <input type="text" pattern="[1-9]|1[0-2]" required>
+                        -
+
+
+                        <input type="text" style="width: 20px;" pattern="[1-9]|[12][0-9]|3[01]" required> 
+                        -
+
+
+                        <input type="text" style="width: 30px;" pattern="^[2-9]\d{3,}$" required> 
+                        (MM/DD/YY)
+                        <br>
+                        <br>
+                        <input type="submit" value="Ok">
+                </td>     
+    </form>
+        </tr>
+    </table>
+</body>
+</html>

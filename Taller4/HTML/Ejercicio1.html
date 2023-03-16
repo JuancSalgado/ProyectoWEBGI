@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Formulario #1</title>
+</head>
+<body>
+    <style>
+        fieldset{
+            border: 1px solid black;
+        }
+    </style>
+                <h1>Zoo Keeper Application Form</h1>
+                <em>Please complete the form. Mandatory fields are marked with a *</em>
+    <form>
+        <fieldset>
+          <legend>CONTACT DETAILS</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label>Name *</label><br><br>
+                        <label>Telephone</label><br><br>
+                        <label>Email *</label>
+                    </td>
+                    <td>
+                        <input type="text" pattern="[A-Za-z_ ]{1,60}" required>
+                        <br>
+                        <br>
+                        <input type="text" pattern="[0-9]+" maxlength="10" required>
+                        <br>
+                        <br>
+                        <input type="email" id="email" required>
+                        <br>
+                    </td>
+                </tr>
+            </table>              
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>PERSONAL INFORMATION</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label>*Age</label>
+                        <br>
+                        <br>
+                    <label>Gender</label><br><br>
+                    <label>When did you 
+                        <br> first know you 
+                        <br>wanted to be a 
+                        <br> zoo-keper</label>
+                    </td>
+                    <td>
+                        <input type="text" pattern="[1-9][8-9]|[2-9]\d+" required>
+                        <br>
+                        <br>
+                        <select style="width: 120px;">
+                            <option>Female</option>
+                            <option>Male</option>
+                          </select>
+                          <br>
+                          <br>
+                          <input type="text" style="height: 70px; width: 150px;"></textarea><br>
+                    </td>
+                </tr>
+            </table>                  
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>PICK YOUR FAVORITE ANIMALS</legend>
+                                <input type="checkbox">Zebra
+                                <input type="checkbox">Cat
+                                <input type="checkbox">Anaconda
+                                <input type="checkbox">Human
+                            <br>
+                                <input type="checkbox">Elephant
+                                <input type="checkbox">Wildebeest
+                                <input type="checkbox">Pigeon
+                                <input type="checkbox">Crab
+                        </fieldset>
+                        <br>
+                            <input type="submit" value="Submit Application" style="height: 40px;">
+                    </form>
+</body>
+</html>

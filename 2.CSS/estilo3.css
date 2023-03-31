@@ -1,0 +1,19 @@
+.flexContenedor{
+
+     display: flex;
+     background-color: red;
+}
+
+.flexContenedor > div {
+
+
+     width: 50%;
+}
+.flexContenedor > div{
+    width: 50%;
+}
+.flexContenedorJustificadoDerecha {
+    display: flex;
+    justify-content: right;
+    margin-c
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tutorial Web</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: #f5f5f5;
+        padding: 1rem;
+    }
+    h1 {
+        text-align: center;
+        color: blue;
+        margin-bottom: 2rem;
+    }
+    .contenedor {
+        display: flex;
+        justify-content: space-between;
+    }
+    .izquierdo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+    }
+    .izquierdo .fila {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    .derecho {
+        width: 50%;
+        padding: 1rem;
+    }
+    .derecho h2 {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+    .derecho ul {
+        list-style: none;
+    }
+    .prueba {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem;
+    }
+    .item img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+</style>
+</head>
+<body>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Tutoriales</a>
+        <a href="#">Ejemplos</a>
+    </nav>
+    <h1>Tutorial Web</h1>
+    <div class="contenedor">
+        <div class="izquierdo">
+            <div class="fila">
+                <img src="imagen1.jpg" alt="Imagen 1" width="100">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="fila">
+                <img src="imagen2.jpg" alt="Imagen 2" width="100">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="fila">
+                <img src="imagen3.jpg" alt="Imagen 3" width="100">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="derecho">
+            <h2>Noticias</h2>
+            <ul>
+                <li>Frameworks</li>
+                <li>Librerías</li>
+                <li>Últimas noticias</li>
+            </ul>
+        </div>
+    </div>
+    <div class="prueba">
+        <div class="item">
+            <img src="imagen1.jpg" alt="Imagen 1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="item">
+            <img src="imagen2.jpg" alt="Imagen 2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="item">
+            <img src="imagen3.jpg" alt="Imagen 3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="item">
+            <img src="imagen4.jpg" alt="Imagen 4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+</body>
+</html>

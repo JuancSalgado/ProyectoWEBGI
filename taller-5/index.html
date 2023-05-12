@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <script src="Js/Functions.js"></script>
+</head>
+<body>
+    <script>
+        // div 1
+        var div1 = createTag("div");
+        div1.setAttribute("class","div1");
+        var div1Img = createTagImg("Resources/pesa.png");
+        var div1P = createTagWithText("p","Weigth Training");
+        var div1Label = createTagWithText("label","Curabitur aliquet quam id dui posuere blandit. Quisque velit nísa, pretium ut lacinia in elementum.");
+        // div 2
+        var div2 = createTag("div");
+        div2.setAttribute("class","div2");
+        var div2P = createTagWithText("p","Weigth Training");
+        var div2Label = createTagWithText("label","Your content goes here. Edit or remove this text in line or in the module Content settings.");
+        // div 3
+        var div3 = createTag("div");
+        div3.setAttribute("class","div3");
+        var div3Img = createTagImg("Resources/corriendo.png");
+        var div3P = createTagWithText("p","Cardio Workout");
+        var div3Label = createTagWithText("label","Curabitur aliquet quam id dui posuere blandit. Quisque velit nísa, pretium ut lacinia in elementum.");
+        // div 4
+        var div4 = createTag("div");
+        div4.setAttribute("class","div4");
+        var div4Label = createTagWithText("label","Training Programs");
+        // div 5
+        var div5 = createTag("div");
+        div5.setAttribute("class","div5");
+        var div5Label = createTagWithText("label","Agility Training");
+        // div 6
+        var div6 = createTag("div");
+        div6.setAttribute("class","div6");
+        var div6Img = createTagImg("Resources/CW.png");
+        // div 7
+        var div7 = createTag("div");
+        div7.setAttribute("class","div7");
+        var div7P = createTagWithText("p","Fitness");
+        var div7Label = createTagWithText("label","What works for you");
+        // div 8
+        var div8 = createTag("div");
+        div8.setAttribute("class","div8");
+        var div8P = createTagWithText("p","Book a Session");
+        var div8InputName = createInputText("Name");
+        var div8InputEmailAddress = createInputText("Email Address");
+        var div8TextArea = createTextarea("Message");
+        var div8Button = createButton("Send Now");
+
+        addElement(div1);
+        addElementContainer(div1,div1Img);
+        addElementContainer(div1,div1P);
+        addElementContainer(div1,div1Label);
+        addElement(div2);
+        addElementContainer(div2,div2P);
+        addElementContainer(div2,div2Label);
+        addElement(div3);
+        addElementContainer(div3,div3Img);
+        addElementContainer(div3,div3P);
+        addElementContainer(div3,div3Label);
+        addElement(div4);
+        addElementContainer(div4,div4Label);
+        addElement(div5);
+        addElementContainer(div5,div5Label);
+        addElement(div6);
+        addElementContainer(div6,div6Img);
+        addElement(div7);
+        addElementContainer(div7,div7P);
+        addElementContainer(div7,div7Label);
+        addElement(div8);
+        addElementContainer(div8,div8P);
+        addElementContainer(div8,div8InputName);
+        addElementContainer(div8,div8InputEmailAddress);
+        addElementContainer(div8,div8TextArea);
+        addElementContainer(div8,div8Button);
+    </script>
+</body>
+</html>
